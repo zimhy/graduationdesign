@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="struts2" location="79,16" size="245,415">
+    <action name="login" location="36,23" size="150,62">
+      <result name="positive">
+        <resourceEdge source="positive" routing="0" target="showallplans.jsp" />
+      </result>
+      <result name="negative">
+        <resourceEdge source="negative" routing="0" target="negative.jsp" />
+      </result>
+    </action>
+    <action name="selectplan" location="30,185" size="150,41">
+      <result name="selectsuccess">
+        <resourceEdge source="selectsuccess" routing="0" target="showplancover.jsp" />
+      </result>
+    </action>
+    <action name="showdetail" location="85,343" size="150,62">
+      <result name="showplace">
+        <resourceEdge source="showplace" routing="0" target="showplace.jsp" />
+      </result>
+      <result name="showforces">
+        <resourceEdge source="showforces" routing="0" target="showforces.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="showallplans.jsp" path="/showallplans.jsp" location="511,22" size="150,55" />
+  <webResource name="negative.jsp" path="/negative.jsp" location="305,16" size="150,55" />
+  <webResource name="showplancover.jsp" path="/showplancover.jsp" location="468,251" size="150,55" />
+  <webResource name="showplace.jsp" path="/showplace.jsp" location="350,350" size="150,55" />
+  <webResource name="showforces.jsp" path="/showforces.jsp" location="500,350" size="150,55" />
+  <package name="selected" location="604,148" size="170,152" />
+</Struts2Diagram>
+
