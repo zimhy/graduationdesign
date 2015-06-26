@@ -1,4 +1,4 @@
-<%@page import="persistance.Plans"%>
+﻿<%@page import="persistance.Plans"%>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@taglib prefix="s" uri="/struts-tags" %>
 
@@ -17,7 +17,7 @@
 	-->
 
 </head>
-
+爱上大声大声大声道
 <body>
 
 	<br>
